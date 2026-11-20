@@ -1,0 +1,9 @@
+# Xiaomi
+ro.product.mod_device=vermeer_global
+
+#device
+ro.product.marketname=Redmi K70
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8550
+ro.infinity.soc=第二代骁龙8®移动平台
+ro.infinity.camera=50MP + 8MP + 2MP

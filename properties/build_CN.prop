@@ -1,0 +1,15 @@
+# Chinese model
+bluetooth.device.default_name=Redmi K70
+vendor.usb.product_string=Redmi K70
+ro.product.odm.brand=Redmi
+ro.product.odm.device=vermeer
+ro.product.odm.manufacturer=Xiaomi
+ro.product.odm.model=23113RKC6C
+ro.product.odm.name=vermeer
+
+#device
+ro.product.marketname=Redmi K70
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8550
+ro.infinity.soc=第二代骁龙8®移动平台
+ro.infinity.camera=50MP + 8MP + 2MP
