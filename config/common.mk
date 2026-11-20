@@ -456,3 +456,13 @@ include vendor/infinity/config/version.mk
  endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Aura Dynamic Island
+PRODUCT_PACKAGES += AuraIsland
+PRODUCT_COPY_FILES += \
+packages/apps/AuraIsland/permissions/privapp-permissions-aura-island.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-aura-island.xml \
+packages/apps/AuraIsland/permissions/default-permissions-aura-island.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-aura-island.xml
+
+# Tombstone Background Management
+PRODUCT_PACKAGES += \
+    uwuSettingsExt
